@@ -52,4 +52,5 @@ if st.button("generate"):
     
     # Send the formatted prompt to the model
     result = model.invoke(formatted_prompt)
-    st.write(result.content)  # Access the content of the response
+    st.write(result.content)
+      # Access the content of the response
