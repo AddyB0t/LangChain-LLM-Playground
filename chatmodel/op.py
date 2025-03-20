@@ -1,13 +1,14 @@
 from typing import TypedDict
 from langchain_openai import ChatOpenAI
 from dotenv import load_dotenv
+from pydantic import BaseModel
 
 load_dotenv()
 
 model=ChatOpenAI()
 
 
-class Review(TypedDict):
+class Review(BaseModel):
 
     summary: str
     sentiment: str
