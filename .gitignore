@@ -36,4 +36,10 @@ ENV/
 Thumbs.db
 
 # LangChain specific
-.langchain/ 
+.langchain/
+
+# Additional excludes
+*.zip
+
+# Additional excludes
+*.zip 
